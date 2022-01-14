@@ -1,0 +1,55 @@
+{
+    "name": "@nacelle/nacelle-magento-connector-poc",
+    "version": "0.0.1",
+    "description": "Nacelle connector for Magento Storefront",
+    "main": "app.js",
+    "repository": "",
+    "author": {
+      "name": "Nacelle",
+      "email": "dominic.ceraso@getnacelle.com"
+    },
+    "contributors": [
+      {
+        "name": "JDominic Ceraso",
+        "email": "dominic.ceraso@getnacelle.com"
+      }
+    ],
+    "license": "MIT",
+    "private": true,
+    "scripts": {
+      "start": "./bin/start",
+      "up": "./bin/up",
+      "down": "./bin/down",
+      "test": "./bin/test",
+      "docs:dev": "vuepress dev docs",
+      "docs:build": "vuepress build docs",
+      "coverage": "make-coverage-badge"
+    },
+    "dependencies": {
+      "@babel/core": "^7.7.7",
+      "@babel/preset-env": "^7.7.7",
+      "asciify-image": "^0.1.5",
+      "axios": "^0.21.1",
+      "babel-plugin-module-resolver": "^4.0.0",
+      "boxen": "^4.2.0",
+      "chalk": "^3.0.0",
+      "dotenv": "^8.2.0",
+      "esm": "^3.2.25",
+      "express": "^4.17.1",
+      "lodash": "^4.17.19",
+      "machine": "^15.2.2",
+      "ora": "^4.0.3",
+      "pm2": "^4.2.1",
+      "querystrings": "^0.4.0",
+      "uuid": "^3.3.3",
+      "vuepress": "^1.2.0"
+    },
+    "devDependencies": {
+      "@babel/plugin-transform-runtime": "^7.7.6",
+      "@babel/runtime": "^7.7.7",
+      "babel-jest": "^24.9.0",
+      "eslint": "^6.8.0",
+      "jest": "^24.9.0",
+      "make-coverage-badge": "^1.2.0"
+    }
+  }
