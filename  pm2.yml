@@ -1,0 +1,15 @@
+apps:
+  - script: ./app.js
+    name: nacelle-magento-connector-poc
+    autorestart: true
+    watch: ['src', 'config', 'lib']
+    ignore_watch: ['node_modules']
+    args: ['--color']
+    node_args: '-r esm --max_old_space_size=512'
+    error_file: ./logs/error.log
+    out_file: ./logs/output.log
+    max_memory_restart: '1024M'
+    env:
+      NODE_ENV: development
+    env_production:
+      NODE_ENV: production
