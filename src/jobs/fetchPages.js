@@ -1,7 +1,7 @@
 import Magento from '../services/magento'
 import { connector } from '../../config/app'
 import normalizer from '../normalizers/page'
-import fetchMagento from '../helpers/magento/concurrently-fetch-magento'
+import fetchMagento from '../helpers/magento/concurrentlyFetchMagento'
 
 export default {
 

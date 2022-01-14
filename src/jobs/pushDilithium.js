@@ -1,5 +1,5 @@
 import Dilithium from '../services/dilithium'
-import { camelCase, capitalize } from '../utils/string-helpers'
+import { camelCase, capitalize } from '../utils/stringHelpers'
 import { chunk as chunker } from 'lodash'
 
 export default {

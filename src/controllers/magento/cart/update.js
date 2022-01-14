@@ -1,4 +1,4 @@
-import updateGuestCart from '../../../helpers/magento/update-guest-cart'
+import updateGuestCart from '../../../helpers/magento/updateGuestCart'
 import { requireParams } from '../../../utils/request'
 
 export default async (req, res) => {

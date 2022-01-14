@@ -1,8 +1,8 @@
 import Magento from '../services/magento'
 import { connector } from '../../config/app'
 
-import { bindCategoriesProducts } from '../utils/magento-helpers'
-import fetchMagento from '../helpers/magento/concurrently-fetch-magento'
+import { bindCategoriesProducts } from '../utils/magentoHelpers'
+import fetchMagento from '../helpers/magento/concurrentlyFetchMagento'
 
 export default {
 

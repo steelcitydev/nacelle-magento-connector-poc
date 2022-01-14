@@ -1,5 +1,5 @@
-import { slugify } from '../utils/string-helpers'
-import { getSeconds } from '../utils/date-helpers'
+import { slugify } from '../utils/stringHelpers'
+import { getSeconds } from '../utils/dateHelpers'
 
 export default ({
   id: cmsSyncSourceContentId,

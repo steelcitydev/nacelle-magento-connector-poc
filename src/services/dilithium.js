@@ -1,6 +1,6 @@
 import request from '../utils/request'
 import appConfig from '../../config/app'
-import { buildMutation } from '../utils/dilithium-helpers'
+import { buildMutation } from '../utils/dilithiumHelpers'
 
 export default class Dilithium {
 

@@ -1,8 +1,8 @@
 import Machine from 'machine'
 import Magento from '../../services/magento'
 
-import { makeArray } from '../../utils/array-helpers'
-import { actionMap } from '../../utils/magento-helpers'
+import { makeArray } from '../../utils/arrayHelpers'
+import { actionMap } from '../../utils/magentoHelpers'
 
 const helper = {
 

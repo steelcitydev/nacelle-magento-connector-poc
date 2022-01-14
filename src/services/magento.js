@@ -2,9 +2,9 @@ import qs from 'querystrings'
 
 import appConfig from '../../config/app'
 import request from '../utils/request'
-import { slugify } from '../utils/string-helpers'
+import { slugify } from '../utils/stringHelpers'
 
-import { buildSearchParams } from '../utils/magento-helpers'
+import { buildSearchParams } from '../utils/magentoHelpers'
 
 export default class Magento {
 
